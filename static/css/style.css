@@ -1,0 +1,68 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #333;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    padding: 2em;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 1em;
+}
+
+p {
+    color: #666;
+    font-size: 1.1em;
+}
+
+
+/* Category card styling */
+.category-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.category-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.category-card h3 {
+    margin-top: 10px;
+}
+
+.category-card a {
+    text-decoration: none;
+  color: #333;
+}

@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h1>Welcome to steakhouse</h1>
+<p>This is the home page of a Restaurant website.</p>
+<!-- display the Category Images from the DB as Links -->
+<div class="category-container">
+    {% for category in categories %}
+        <div class="category-card">
+            <a href="{{ url_for('category_recipes', category_id=category.id) }}">
+                <img src="{{ url_for('static', filename='images/' + category.image) }}" alt="{{ category.name }}">
+             
+                <h3>{{ category.name }}</h3>
+            </a>
+        </div>
+    {% endfor %}
+    </div>
+{% endblock %}
