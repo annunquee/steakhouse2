@@ -51,7 +51,6 @@ def about():
 def contact():
     return render_template('contact.html')
 
-
 # Run the application if executed directly
 if __name__ == '_main_':
     app.run(debug=True)
