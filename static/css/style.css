@@ -133,7 +133,7 @@ p {
 .recipe-image {
     width: 100%;
     height: 200px;
-    object-fit: cover;
+    object-fit:scale-down;
 }
 
 /* Recipe title */
@@ -281,4 +281,37 @@ p {
     padding: 10px 15px;
     background-color: rgb(202, 32, 32);
     cursor: pointer;
+}
+
+/* Contact Details Styling */
+/* Contact Details List */
+.contact-details {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    
+}
+
+.contact-details li {
+    margin-bottom: 1rem; /* Add space between each item */
+    font-size: 1rem; /* Set a readable font size */
+    line-height: 1.5; /* Improve spacing for multi-line content */
+    color: #333; /* Dark text for good contrast */
+    display: flex; /* Use flexbox for layout */
+    align-items: centre; /* Vertically align content */
+}
+
+.contact-details strong {
+    font-weight: bold; /* Highlight the label */
+    margin-right: 0.5rem; /* Add space after the label */
+    flex-shrink: 0; /* Prevent the label from shrinking */
+}
+
+.contact-details a {
+    color: #0073e6; /* Blue colour for links */
+    text-decoration: none; /* Remove underlines by default */
+}
+
+.contact-details a:hover {
+    text-decoration: underline; /* Underline on hover for clarity */
 }
