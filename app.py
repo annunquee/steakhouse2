@@ -15,7 +15,7 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://steakhouse_user:FjqJXwl0p4sXy6rfMymDgam4slZIxQVt@dpg-csv1v1ggph6c73fv8fl0-a.oregon-postgres.render.com/steakhouse'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://steakhouse_kyzx_user:xhX2olDlBglWIfzueyTSZ6u49YEqMf0j@dpg-ct71rj0gph6c73c5n5pg-a.oregon-postgres.render.com/steakhouse_kyzx'
 
 # Database configuration
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://flask_user:yourpassword@localhost/restaurant'

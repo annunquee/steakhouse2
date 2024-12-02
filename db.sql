@@ -1,4 +1,4 @@
-GRANT ALL PRIVILEGES ON DATABASE steakhouse TO steakhouse_user;
+GRANT ALL PRIVILEGES ON DATABASE steakhouse_kyzx TO steakhouse_kyzx_user;
 
 
 CREATE SEQUENCE category_seq;
